@@ -4,6 +4,7 @@ import { ButtonComponent } from '../../components/shared/button/button.component
 import { NavbarComponent } from '../../components/shared/navbar/navbar.component';
 import { HeaderComponent } from '../../components/shared/header/header.component';
 import { FooterComponent } from '../../components/shared/footer/footer.component';
+import { SidebarComponent } from '../../components/shared/sidebar/sidebar.component';
 
 
 
@@ -12,13 +13,15 @@ import { FooterComponent } from '../../components/shared/footer/footer.component
     ButtonComponent,
     NavbarComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    SidebarComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
     ButtonComponent,
+    SidebarComponent,
     NavbarComponent,
     HeaderComponent,
     FooterComponent
