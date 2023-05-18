@@ -12,6 +12,7 @@ export class ButtonComponent {
   @Input() hasIcon: boolean = false;
   @Input() rounded: boolean = false;
   @Input() isLink: boolean = false;
+  @Input() isSelected: boolean = false;
   @Input() icon: string = '';
   clickEvent: any;
 
