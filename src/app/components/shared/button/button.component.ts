@@ -13,8 +13,8 @@ export class ButtonComponent {
   @Input() rounded: boolean = false;
   @Input() isLink: boolean = false;
   @Input() isSelected: boolean = false;
+  @Output() clickEvent = new EventEmitter();
 
-  clickEvent: any;
 
   constructor() { }
 

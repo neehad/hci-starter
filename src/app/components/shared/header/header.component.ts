@@ -12,4 +12,9 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  myCart() {
+    alert('my cart')
+  }
+
 }
